@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.crpyto-container {
+  border: '1px solid red';
+}
+.crpyto-container input,
+.crpyto-container button {
+  padding:10px;
+  font-size: 20px;
+  margin: 10px 0;
+
 }

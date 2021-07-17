@@ -122,8 +122,8 @@ SAMPLE (on deployment):
         eth_chainId
         eth_getTransactionReceipt
 
-1--> this is the account from the list of accounts (shown on the terminal where we ran `npx hardhat node`)
-2--> this is the account that our contract is deployed to... (shown on the terminal where we ran `npx hardhat run scripts/deploy.js --network localhost`)
+1--> this is the ACCOUNT from the list of accounts (shown on the terminal where we ran `npx hardhat node`)
+2--> this is the CONTRACT ADDRESS that our contract is deployed to... (shown on the terminal where we ran `npx hardhat run scripts/deploy.js --network localhost`)
 
 7: Once deployed, we see everything in the terminal window which was part of the `deploy.js` 
 
